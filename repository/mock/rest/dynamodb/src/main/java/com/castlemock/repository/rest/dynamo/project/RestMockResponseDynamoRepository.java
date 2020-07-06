@@ -255,6 +255,7 @@ public class RestMockResponseDynamoRepository extends DynamoRepository<RestMockR
         private boolean matchCase;
         private boolean matchAny;
         private boolean matchRegex;
+        private boolean required;
     }
 
     @Getter
